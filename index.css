@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    padding: 0 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.YouTube_icon{
+    /* border: 2px solid red; */
+    width: 25vw;
+}
+.YouTube_icon img{
+    height: 70px;
+    border-radius: 50%;
+}
+.nav_input{
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search_bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.search_bar input{
+    width: 90%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.fa-magnifying-glass{
+    text-align: center;
+    width: 70px;
+    padding: 13px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ededed;
+    cursor: pointer;
+}
+.fa-microphone{
+    padding: 15px;
+    background-color: #ededed;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav_btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 30vw;
+}
+.nav_btn button{
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.fa-bell{
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
