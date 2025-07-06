@@ -9,12 +9,34 @@ body {
 }
 
 /* Navbar part start form here. */
+
+.hamburger{
+  height: 4vh;
+  width: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hamburger span{
+  height: 2px;
+  width: 20px;
+  background-color: black;
+}
+
 .navbar {
   height: 10vh;
   width: 100vw;
   padding: 0 60px;
   display: flex;
   align-items: center;
+}
+.ham_icon_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .YouTube_icon {
   width: 25vw;
