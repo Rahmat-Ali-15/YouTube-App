@@ -18,14 +18,19 @@ header{
 /* sidebar is start from here */
 
 .hamburger{
-  height: 4vh;
-  width: 2vw;
+  /* height: 4vh; */
+  /* width: 2vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
   cursor: pointer;
+  padding: 12px 10px;
+}
+.hamburger:hover{
+  background-color: #e1e0e0;
+  border-radius: 50%;
 }
 .hamburger span{
   height: 1.5px;
