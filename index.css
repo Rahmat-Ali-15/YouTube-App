@@ -16,6 +16,7 @@ header{
 }
 
 /* sidebar is start from here */
+
 .hamburger{
   height: 4vh;
   width: 2vw;
@@ -61,6 +62,7 @@ header{
 .side_bar figure figcaption{
   font-size: 11px;
 }
+/* sidebar end here */
 
 .navbar {
   height: 10vh;
