@@ -14,6 +14,8 @@ body {
 header{
   display: flex;
 }
+
+/* sidebar is start from here */
 .hamburger{
   height: 4vh;
   width: 2vw;
